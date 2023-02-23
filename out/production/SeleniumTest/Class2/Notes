@@ -1,0 +1,21 @@
+
+
+
+8 Locators
+-ID
+-Name
+-TagName
+-xpath
+-LinkText ----> they can only be used with a link and it must have a text  (tag <a link is usually in the tag<a>)
+-PartialLinkText ----> they can only be used with a link
+-Css selector
+-ClassName
+
+Why do we need so many locators?
+some times there be a locator with dupplicate value
+s0me times the developers might not provide you with all the lacators
+
+there are some important things that you should remember while selecting a locator..
+if attribute value has a number in it , it is better to avoid it and use an alternative locator.
+
+a partical link test

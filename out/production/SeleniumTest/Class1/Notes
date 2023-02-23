@@ -1,0 +1,27 @@
+how to integrate your project with the selenium jars
+
+a.create a project in intellij
+b.u add the jars to the project in project structure
+
+2.how to open up a website
+a.set prperties--> link the web driver
+b.initate the instance of the webdriver
+c.use get() method
+
+3- the differance in navigate and get with navigate we can use back , forward , refresh
+not with get
+
+get() waits till the webpage is loaded navigate doesn't wait
+
+4-difference in quit () and close()
+quit close all the tabs
+close closes the current tab
+
+5-maximize and full page
+driver.manage().window().maximize()
+
+6-how to get the current url
+driver.getCurrentUrl();
+
+7-how to get title of a website
+driver.getTitle();
