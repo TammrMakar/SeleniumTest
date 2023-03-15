@@ -24,7 +24,7 @@ public class Task2 {
         driver.findElement(By.id("year")).sendKeys("1984");
         driver.findElement(By.xpath("//input[@value='2']")).click();
         driver.findElement(By.name("websubmit")).click();
-        driver.findElement(By.className("_8idr img")).click();
+        driver.findElement(By.id("_8ien")).click();
         Thread.sleep(5000);
         driver.quit();
 

@@ -1,4 +1,4 @@
-package SeleniumHomeWork.HomeWork02282023;
+package SeleniumHomeWork;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
