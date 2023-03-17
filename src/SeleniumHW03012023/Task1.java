@@ -1,4 +1,4 @@
-package SeleniumHomeWork03012023;
+package SeleniumHW03012023;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,6 +23,6 @@ public class Task1 {
         isSelectedBox= checbox.isSelected();
         System.out.println("the status of selection is "+isSelectedBox);
 
-        driver.close();
+
     }
 }

@@ -1,4 +1,4 @@
-package SeleniumHomeWork03012023;
+package SeleniumHW03012023;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,7 +28,7 @@ public class Task2 {
             System.out.println(isEnabledoptin);
             System.out.println(isSelectedoption);
 
-            driver.close();
+
         }
     }
 
